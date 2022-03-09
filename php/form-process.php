@@ -16,21 +16,6 @@ if (empty($_POST["email"])) {
     $email = $_POST["email"];
 }
 
-// MSG Guest
-if (empty($_POST["guest"])) {
-    $errorMSG .= "Subject is required ";
-} else {
-    $guest = $_POST["guest"];
-}
-
-
-// MSG Event
-if (empty($_POST["event"])) {
-    $errorMSG .= "Subject is required ";
-} else {
-    $event = $_POST["event"];
-}
-
 
 // MESSAGE
 if (empty($_POST["message"])) {
@@ -40,7 +25,7 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "armanmia7@gmail.com";
+$EmailTo = "danishbalti1@gmail.com";
 $Subject = "New Message Received";
 
 // prepare email body text

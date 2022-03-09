@@ -348,6 +348,7 @@ button:focus{
 }
 .inner-column p{
 	font-size: 18px;
+    text-align: justify;
 	color: wheat;
 }
 .inner-column .btn-outline-new-white{
@@ -449,14 +450,24 @@ button:focus{
 	font-weight: 500;
 	font-family: 'Rubik', sans-serif;
 }
-.why-text p{
-	color: #ffffff;
+.why-text h3{
+   color:rgb(21, 178, 218);
+   font-size:18px;
+   font-weight:600;
+   font-family: sans-serif; 
+}
+.why-text  h5> span{
+    color: #ffffff;
 	font-size: 13px;
-	border-bottom: 1px dashed #010101;
 	margin: 0px;
 	padding-bottom: 15px;
 	margin-top: 0px;
-	margin-bottom: 15px;
+	margin-bottom: 15px;}
+.why-text p{
+	color: #ffffff;
+	font-size: 11px;
+	margin: 0px;
+	margin-top: 0px;
 }
 .why-text h5{
 	font-size: 18px;
