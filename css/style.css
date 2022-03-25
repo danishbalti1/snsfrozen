@@ -161,7 +161,7 @@ button:focus{
 	z-index: 10;
 }
 .navbar .container img{
-    height:13vh;
+    height:8vh;
 }
 
 .top-navbar .navbar{
@@ -348,8 +348,8 @@ button:focus{
 }
 .inner-column p{
 	font-size: 18px;
-    text-align: justify;
 	color: wheat;
+    text-align: justify;
 }
 .inner-column .btn-outline-new-white{
 	color: #fff;
@@ -456,18 +456,14 @@ button:focus{
    font-weight:600;
    font-family: sans-serif; 
 }
-.why-text  h5> span{
-    color: #ffffff;
+.why-text p{
+	color: #ffffff;
 	font-size: 13px;
+	border-bottom: 1px dashed ;
 	margin: 0px;
 	padding-bottom: 15px;
 	margin-top: 0px;
-	margin-bottom: 15px;}
-.why-text p{
-	color: #ffffff;
-	font-size: 11px;
-	margin: 0px;
-	margin-top: 0px;
+	margin-bottom: 15px;
 }
 .why-text h5{
 	font-size: 18px;
@@ -940,6 +936,10 @@ button:focus{
 }
 @media only screen and (max-width: 990px){
     .our-team{ margin-bottom: 30px; }
+    
+.navbar .container img{
+    height:7vh;
+}
 }
 
 
